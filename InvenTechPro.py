@@ -39,9 +39,9 @@ import json
 #   - BG_IMAGE: URL de la imagen de fondo que aparece en la pantalla de login.
 #   - st.set_page_config(): configura el título, ícono y layout de la app.
 # ─────────────────────────────────────────────────────────────────────────────
-SUPABASE_URL  = "https://ziqlpbahosynuznvubyi.supabase.co"
-SUPABASE_KEY  = "sb_publishable_xIC50oLLUMzK1DNFxvIROA_1Iw95Qa3"
-GROQ_API_KEY  = "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"
+SUPA_URL = st.secrets["SUPA_URL"]
+SUPA_KEY = st.secrets["SUPA_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 BG_IMAGE      = "https://i.imgur.com/BYJcOv2.jpeg"
 
 st.set_page_config(
