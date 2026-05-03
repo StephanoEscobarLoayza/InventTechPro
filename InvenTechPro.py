@@ -62,7 +62,7 @@ st.set_page_config(
 # ─────────────────────────────────────────────────────────────────────────────
 @st.cache_resource
 def get_supabase() -> Client:
-    return create_client(SUPABASE_URL, SUPABASE_KEY)
+    return create_client(SUPA_URL, SUPA_KEY)
 
 supabase = get_supabase()
 
